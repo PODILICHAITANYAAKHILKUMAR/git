@@ -6,7 +6,7 @@
       :options="options"
       label="name"
       track-by="id"
-      :multiple="true"
+      :multiple="false"
     ></multiselect>
   </div>
 </template>
@@ -23,6 +23,9 @@ export default {
       selectedOptions: [],
       options: [
         // Your options here
+        '1',
+        '2',
+        '3',
       ],
     };
   },
