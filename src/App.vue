@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import Multiselect from 'vue-multiselect';
+import Multiselect from "vue-multiselect";
 
 export default {
   components: {
@@ -23,9 +23,9 @@ export default {
       selectedOptions: [],
       options: [
         // Your options here
-        '1',
-        '2',
-        '3',
+        "1",
+        "2",
+        "3",
       ],
     };
   },
